@@ -2,7 +2,8 @@ import "./index.scss";
 import { Link, NavLink } from "react-router-dom"
 import LogoZ from "../../assets/images/logo-z.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faEnvelope, faHome, faUser, faLinkedin } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons"
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 
 export default function Sidebar() {
@@ -27,7 +28,12 @@ export default function Sidebar() {
             <ul>
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/zoheb-akhtar-593051284/">
-                        <FontAwesomeIcon icon={faLinkedin} color="4d4d4e" />
+                        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/zoheb-akhtar">
+                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                     </a>
                 </li>
             </ul>

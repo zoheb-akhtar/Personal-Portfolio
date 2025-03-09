@@ -25,11 +25,13 @@ setTimeout(() => {
 function sendEmail(event) {
     event.preventDefault()
     emailjs
-        .send(
+        .sendForm(
             import.meta.env.VITE_SERVICE_ID,
             import.meta.env.VITE_TEMPLATE_ID,
             refForm.current,
-            import.meta.env.VITE_PUBLIC_ID
+            {
+                publicKey: import.meta.env.VITE_PUBLIC_ID
+            }
         )
         .then (
             () => {

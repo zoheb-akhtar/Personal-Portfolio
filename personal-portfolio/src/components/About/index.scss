@@ -1,3 +1,17 @@
+.about-page {
+  padding-left: 150px;
+  padding-right: 100px;
+  width: calc(100% - 150px);
+  position: initial;
+  height: 100%;
+  overflow: auto;
+}
+
+  h1.page-title {
+      margin-left: 12px;
+      margin-top: 200px;
+  }
+
 .stage-cube-cont {
     width: 50%;
     height: 100%;
@@ -72,3 +86,47 @@
       transform: rotateX(90deg);
     }
 }
+
+.prog-cont {
+  background-color: hsl(0%, 0%, 18%);
+  padding-top: 3px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  opacity: 0;
+  animation: fadeInUp 2s 2s;
+  animation-fill-mode: forwards;
+
+  .prog-title {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #ffd700;
+    font-weight: 400;
+    font-family: "Coolvetica";
+   }
+}
+
+
+.prog-langs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.lang-img {
+  width: 60px;
+  margin-bottom: 22px;
+}
+
+.lang-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .lang-name {
+    font-size: 10px;
+  }
+}
+
+
+

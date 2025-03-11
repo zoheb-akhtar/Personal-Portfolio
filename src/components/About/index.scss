@@ -127,6 +127,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+
+  .about-page {
+    width: 100%;
+  }
   .stage-cube-cont {
     display: none;
   }
@@ -141,8 +145,16 @@
 }
 
 .prog-cont {
-  width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+
+  img {
+    width: 34px;
+  }
+
 }
+
+
 
 }
 

@@ -1,6 +1,4 @@
 .about-page {
-  padding-left: 150px;
-  padding-right: 100px;
   width: calc(100% - 150px);
   position: initial;
   height: 100%;
@@ -16,7 +14,7 @@
     width: 50%;
     height: 100%;
     top: 0;
-    padding-top: 18%;
+    padding-top: 25%;
     margin-left: 0;
     position: absolute;
     right: 0;
@@ -88,8 +86,8 @@
 }
 
 .prog-cont {
-  background-color: hsl(0%, 0%, 18%);
-  padding-top: 3px;
+  background-color: hsl(0%, 0%, 20%);
+  padding-top: 2px;
   border-radius: 12px;
   margin-bottom: 32px;
   opacity: 0;
@@ -128,5 +126,24 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .stage-cube-cont {
+    display: none;
+  }
+
+  h1.page-title {
+    margin-left: 12px;
+    margin-top: 0px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.prog-cont {
+  width: 400px;
+}
+
+}
 
 

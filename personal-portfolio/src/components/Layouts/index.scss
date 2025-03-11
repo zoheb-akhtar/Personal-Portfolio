@@ -56,3 +56,27 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+        position: initial;
+        height: auto;
+        min-height: auto;
+
+        &.about-page,
+        &.contact-page,
+        &.portfolio-page,
+        &.work-page {
+
+            .text-zone {
+                position: initial;
+                transform: none;
+                width: 100%;
+                display: block;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+        }
+    }
+}

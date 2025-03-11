@@ -117,7 +117,7 @@ export default function About() {
             idx={15}
             />
         </h1>
-        <p>
+        <p className="about-me-desc">
         I am a very ambitious software developer with a strong passion for learning and growing in the tech field. I am always eager to dive into new technologies, tackle complex problems, and expand my skill set. Whether it is exploring full-stack development, AI, or emerging technologies, I am committed to continuously improving and applying my knowledge to build impactful, user-focused applications.
         </p>
         
@@ -129,7 +129,7 @@ export default function About() {
           </div>
 
           <div className="prog-cont">
-          <p className="prog-title">Frameworks</p>
+          <p className="prog-title">Frameworks/Technologies</p>
           <div className="prog-langs">
           {frameworkElements}
           </div>

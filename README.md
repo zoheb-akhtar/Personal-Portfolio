@@ -16,4 +16,5 @@ Seamless Contact: An intuitive contact form that makes it easy for visitors to g
 
 ReactJs: A JavaScript library for building user interfaces.
 <br />
+<br />
 Sass: A CSS preprocessor that enhances the styling capabilities of the application.

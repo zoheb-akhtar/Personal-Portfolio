@@ -13,4 +13,4 @@ Welcome to my coding portfolio! This web application is built using ReactJs with
 
 - **ReactJs:** A JavaScript library for building user interfaces.
 <br />
-- **Sass:** A CSS preprocessor that enhances the styling capabilities of the application.
+- **Scss:** A CSS preprocessor that enhances the styling capabilities of the application.

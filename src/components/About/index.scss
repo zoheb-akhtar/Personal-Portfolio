@@ -90,6 +90,7 @@
   padding-top: 2px;
   border-radius: 12px;
   margin-bottom: 32px;
+  width: 550px;
   opacity: 0;
   animation: fadeInUp 2s 2s;
   animation-fill-mode: forwards;
@@ -128,6 +129,13 @@
 
 @media screen and (max-width: 1200px) {
 
+  .about-page {
+    width: calc(100% - 150px);
+    position: initial;
+    height: 90%;
+    overflow: auto;
+  }
+
 
   .about-page {
     width: 100%;
@@ -159,8 +167,5 @@
 
 }
 
-
-
 }
-
 

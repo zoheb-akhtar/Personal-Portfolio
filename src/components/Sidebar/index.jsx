@@ -2,7 +2,7 @@ import "./index.scss";
 import { Link, NavLink } from "react-router-dom"
 import LogoZ from "../../assets/images/logo-z2.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars, faBriefcase, faClose, faEnvelope, faFolder, faFolderOpen, faHome, faUser } from "@fortawesome/free-solid-svg-icons"
+import { faBars, faBriefcase, faClose, faEnvelope, faFile, faFolder, faFolderOpen, faHome, faUser } from "@fortawesome/free-solid-svg-icons"
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
 
@@ -39,6 +39,11 @@ export default function Sidebar() {
                 <FontAwesomeIcon onClick={() => setShowNav(false)} icon={faClose} color="#ffd700" size="3x" className="close-icon"/>
             </nav>
             <ul>
+            <li>
+                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1tY9s2ZENQWtWlla4sCLxMgWKxonCJxn5/view?usp=drive_link">
+                        <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
+                    </a>
+                </li>
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/zoheb-akhtar-593051284/">
                         <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />

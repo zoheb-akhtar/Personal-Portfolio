@@ -10,7 +10,6 @@ Welcome to my coding portfolio! This web application is built using ReactJs with
 - **Seamless Contact:** An intuitive contact form that makes it easy for visitors to get in touch with me directly.
 
 # Technologies Used 
-
-- **ReactJs:** A JavaScript library for building user interfaces.
-<br />
-- **Scss:** A CSS preprocessor that enhances the styling capabilities of the application.
+- **Frontend:** React.js, HTML, SCSS <br />
+- **Development Tools:** Git, GitHub <br />
+- **Deployment:** Vercel

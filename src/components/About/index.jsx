@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Loader from "react-loaders"
 import Node from "../../assets/images/nodejs.png"
 import VS from "../../assets/images/vscode.png"
+import Postman from "../../assets/images/postman.webp"
 
 
 export default function About() {
@@ -74,8 +75,8 @@ export default function About() {
       img: "https://cdn-icons-png.flaticon.com/128/733/733553.png"
     },
     {
-      title: "VSCode",
-      img: "https://cdn-icons-png.flaticon.com/128/15713/15713436.png"
+      title: "Postman",
+      img: Postman
     },
   ]
 

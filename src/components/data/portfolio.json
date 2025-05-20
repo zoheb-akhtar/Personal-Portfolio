@@ -7,10 +7,10 @@
             "url": "https://chef-claude-zoheb-akhtars-projects.vercel.app/"
         },
         {
-            "cover": "/portfolio/projects/flashcards.png",
-            "title": "Flashcards App",
-            "description": "ReactJS, CSS",
-            "url": "https://flashcard-quiz-zoheb-akhtars-projects.vercel.app/"
+            "cover": "/portfolio/projects/pgr.png",
+            "title": "Pro Golf Reference",
+            "description": "ReactJS, ExpressJS, NodeJS, PostgreSQL",
+            "url": "https://pro-golf-reference.vercel.app/"
         }
     ]
 }

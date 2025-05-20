@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Loader from "react-loaders"
 import Node from "../../assets/images/nodejs.png"
 import VS from "../../assets/images/vscode.png"
+import Postman from "../../assets/images/postman.webp"
 
 
 export default function About() {
@@ -74,8 +75,8 @@ export default function About() {
       img: "https://cdn-icons-png.flaticon.com/128/733/733553.png"
     },
     {
-      title: "VSCode",
-      img: "https://cdn-icons-png.flaticon.com/128/15713/15713436.png"
+      title: "Postman",
+      img: Postman
     },
   ]
 
@@ -118,7 +119,7 @@ export default function About() {
             />
         </h1>
         <p className="about-me-desc">
-        I am a very ambitious software developer with a strong passion for learning and growing in the tech field. I am always eager to dive into new technologies, tackle complex problems, and expand my skill set. Whether it is exploring full-stack development, AI, or emerging technologies, I am committed to continuously improving and applying my knowledge to build impactful, user-focused applications.
+        I am a very ambitious software developer with a strong passion for learning, a drive to tackle complex problems, and a commitment to building impactful, user-focused applications.
         </p>
         
         <div className="prog-cont">

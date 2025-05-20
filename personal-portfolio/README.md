@@ -1,12 +1,15 @@
-# React + Vite
+# Zoheb Akhtar's Coding Portfolio!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my coding portfolio! This web application is built using ReactJs with Sass styling, showcasing my skills, projects, and achievements in the field of web development. You can check it out [here!](https://zoheba-portfolio.vercel.app/)
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design:** Crafted for a smooth and visually appealing experience across all devices, ensuring accessibility and ease of use. <br />
+- **Project Showcase:** A dedicated space to highlight my coding projects, complete with detailed descriptions, technologies used, and live demo links. <br />
+- **Skills Spotlight:** A well-organized section that showcases my expertise in programming languages, frameworks, and tools. <br />
+- **Seamless Contact:** An intuitive contact form that makes it easy for visitors to get in touch with me directly.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Technologies Used 
+- **Frontend:** React.js, HTML, SCSS <br />
+- **Development Tools:** Git, GitHub <br />
+- **Deployment:** Vercel

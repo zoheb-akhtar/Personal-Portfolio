@@ -1,0 +1,16 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/projects/chef-claude.png",
+            "title": "Chef Claude",
+            "description": "ReactJS, CSS, Hugging Face AI",
+            "url": "https://chef-claude-zoheb-akhtars-projects.vercel.app/"
+        },
+        {
+            "cover": "/portfolio/projects/pgr.png",
+            "title": "Pro Golf Reference",
+            "description": "ReactJS, ExpressJS, NodeJS, PostgreSQL",
+            "url": "https://pro-golf-reference.vercel.app/"
+        }
+    ]
+}

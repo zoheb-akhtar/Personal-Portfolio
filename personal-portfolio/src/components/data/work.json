@@ -1,13 +1,21 @@
 {
     "work": [
         {
-            "company": "Mentis.chat",
-            "title": "Data Analytics Intern",
+            "company": "Ventus",
+            "title": "Lead Developer",
             "description1": "Designed and implemented an instructor outreach system, achieving a 22% response rate by optimizing messaging, targeting strategies, and engagement tracking.",
             "description2": "Conducted AI-focused market research, analyzing industry trends and user behavior to inform business strategy and product direction.",
             "description3": "Analyzed large datasets on marketing performance and user engagement, using data-driven insights to refine ad performance, audience targeting, and customer acquisition strategies.",
+            "dates": "July 2025 - Present"
+        },
+        {
+            "company": "Mentis.chat",
+            "title": "Data Analytics Intern",
+            "description1": "Led end-to-end development of the Ventus mobile app MVP, from system architecture and rewards-matching logic to App Store deployment.",
+            "description2": "Built and managed the tech stack with a React Native frontend, Node.js/Express backend, Supabase database, and secure authentication.",
+            "description3": "Acted as technical lead, translating business goals into solutions while collaborating with founders and presenting in client meetings and investor pitches.",
             "dates": "June 2023 - September 2023"
         }
-
+        
     ]
 }

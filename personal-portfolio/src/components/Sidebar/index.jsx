@@ -32,26 +32,29 @@ export default function Sidebar() {
                     <FontAwesomeIcon onClick={() => setShowNav(false)} icon={faBriefcase} color="#4d4d4e" />
                 </NavLink>
 
-                <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
-                    <FontAwesomeIcon onClick={() => setShowNav(false)} icon={faEnvelope} color="#4d4d4e" />
-                </NavLink>
-
                 <FontAwesomeIcon onClick={() => setShowNav(false)} icon={faClose} color="#ffd700" size="3x" className="close-icon"/>
             </nav>
             <ul>
-            <li>
+                <li>
                     <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1tY9s2ZENQWtWlla4sCLxMgWKxonCJxn5/view?usp=drive_link">
-                        <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
+                    <button className="resume-btn">Resume
+                        <FontAwesomeIcon className="file-img" icon={faFile}  color="#ffd700" />
+                        </button>
                     </a>
                 </li>
                 <li>
+                <a target="_blank" rel="noreferrer" href="mailto:zoheb.akh1@gmail.com">
+                        <FontAwesomeIcon icon={faEnvelope} size="2x" color="#4d4d4e" />
+                    </a>
+                </li>     
+                <li>
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/zoheb-akhtar-593051284/">
-                        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                        <FontAwesomeIcon icon={faLinkedin} size="2x" color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
                     <a target="_blank" rel="noreferrer" href="https://github.com/zoheb-akhtar">
-                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                        <FontAwesomeIcon icon={faGithub} size="2x" color="#4d4d4e" />
                     </a>
                 </li>
             </ul>

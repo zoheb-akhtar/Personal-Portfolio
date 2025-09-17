@@ -3,8 +3,8 @@
         {
             "cover": "/portfolio/projects/chef-claude.png",
             "title": "Chef Claude",
-            "description": "React.js, CSS, Hugging Face AI",
-            "url": "https://chef-claude-zoheb-akhtars-projects.vercel.app/"
+            "description": "React.js, Express.js, Node.js, PostgreSQL",
+            "url": "https://chefclaudeai.vercel.app"
         },
         {
             "cover": "/portfolio/projects/pgr.png",

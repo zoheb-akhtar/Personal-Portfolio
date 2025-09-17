@@ -5,6 +5,27 @@
     background: linear-gradient(to bottom, #023e8a 20%, #00b4d8 80%);
 }
 
+.resume-btn {
+    background: transparent;
+    color: #ffd700;
+    border: 1px solid #4d4d4e;
+    padding: 8px;
+    font-weight: 500;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.resume-btn:hover {
+    border: 1px solid #ffd700;
+}
+
+
+.file-img {
+    margin-left: 8px;
+}
+
+
 .about-page,
 .contact-page,
 .portfolio-page,

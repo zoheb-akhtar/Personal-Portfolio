@@ -9,6 +9,7 @@ body {
   background: #07305b;
   overflow: hidden;
   display: block;
+  
 }
 
 ::-webkit-scrollbar {

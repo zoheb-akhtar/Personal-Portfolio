@@ -4,9 +4,6 @@ import AnimatedLetters from "../AnimatedLetters"
 import { faCss, faGitAlt, faHtml5, faJava, faJsSquare, faPython, faReact } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Loader from "react-loaders"
-import Node from "../../assets/images/nodejs.png"
-import VS from "../../assets/images/vscode.png"
-import Postman from "../../assets/images/postman.webp"
 
 
 export default function About() {
@@ -60,9 +57,14 @@ export default function About() {
       img: "https://cdn-icons-png.flaticon.com/128/15484/15484303.png"
     },
     {
+      title: "ExpressJS",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+    },
+    {
       title: "PostgreSQL",
       img: "https://cdn-icons-png.flaticon.com/128/5968/5968342.png"
     },
+    
   ]
 
   const devTools = [
@@ -76,7 +78,23 @@ export default function About() {
     },
     {
       title: "Postman",
-      img: Postman
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
+    },
+    {
+      title: "Supabase",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg"
+    },
+    {
+      title: "Docker",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg"
+    },
+    {
+      title: "AWS",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+    },
+    {
+      title: "VS Code",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
     },
   ]
 

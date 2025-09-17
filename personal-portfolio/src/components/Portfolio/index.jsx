@@ -2,9 +2,25 @@ import React, { useEffect, useState } from "react"
 import "./index.scss"
 import Loader from "react-loaders"
 import AnimatedLetters from "../AnimatedLetters"
-import portfolioData from "../data/portfolio.json"
+import chefClaudeImg from "../../assets/images/chef-claude.png"
+import pgrImg from "../../assets/images/pgr.png"
 
 export default function Portfolio() {
+    const portfolioData = [
+        {
+            cover: chefClaudeImg,
+            title: "Chef Claude",
+            description: "React.js, Express.js, Node.js, PostgreSQL",
+            url: "https://chefclaudeai.vercel.app"
+        },
+        {
+            cover: pgrImg,
+            title: "Pro Golf Reference", 
+            description: "React.js, Express.js, Node.js, PostgreSQL",
+            url: "https://pro-golf-reference.vercel.app"
+        }
+    ]
+
     const [letterClass, setLetterClass] = useState("text-animate")
 
     useEffect(() => {
@@ -49,7 +65,7 @@ export default function Portfolio() {
 
                 />
             </h1>
-            <div>{renderPortfolio(portfolioData.portfolio)}</div>
+            <div>{renderPortfolio(portfolioData)}</div>
         </div>
         <Loader type="pacman"/>
         </>

@@ -1,13 +1,13 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/projects/chef-claude.png",
+            "cover": "../../../portfolio/projects/chef-claude.png",
             "title": "Chef Claude",
             "description": "React.js, Express.js, Node.js, PostgreSQL",
             "url": "https://chefclaudeai.vercel.app"
         },
         {
-            "cover": "/portfolio/projects/pgr.png",
+            "cover": "../../../portfolio/projects/pgr.png",
             "title": "Pro Golf Reference",
             "description": "React.js, Express.js, Node.js, PostgreSQL",
             "url": "https://pro-golf-reference.vercel.app"
